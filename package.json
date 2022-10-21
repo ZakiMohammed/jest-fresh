@@ -8,7 +8,7 @@
     "test-watch": "jest --watchAll",
     "test-verbose": "jest --verbose",
     "test-coverage": "jest --coverage",
-    "test-fat": "jest --watchAll --coverage"
+    "test-fat": "jest --watchAll --coverage --verbose"
   },
   "keywords": [
     "JEST"
