@@ -9,9 +9,7 @@ describe('User Business', () => {
         ];
         const spyGetAll = jest.spyOn(db, 'getAll');
         
-        spyGetAll.mockImplementation(() => {
-            return expected
-        });
+        spyGetAll.mockImplementation(() => expected);
 
         const received = userBusiness.getUsers();
         expect(received).toEqual(expected);
