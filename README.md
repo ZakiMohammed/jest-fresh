@@ -4,8 +4,8 @@ JEST fresh project for learning JEST.
 
 Initial Setup:
 ```
-npm i jest
-npm i @types/jest
+npm i jest -D
+npm i @types/jest -D
 ```
 
 Test:

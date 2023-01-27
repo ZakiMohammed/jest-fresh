@@ -10,7 +10,6 @@ describe('User Business', () => {
         const spyGetAll = jest.spyOn(db, 'getAll');
         
         spyGetAll.mockImplementation(() => {
-            console.log('Mock Called');
             return expected
         });
 
