@@ -1,4 +1,4 @@
-const userBusiness = require('./user-business')
+const user = require('./user')
 const db = require('./db')
 
 describe('User Business', () => {
@@ -11,7 +11,7 @@ describe('User Business', () => {
         
         spyGetAll.mockImplementation(() => expected);
 
-        const received = userBusiness.getUsers();
+        const received = user.getUsers();
         expect(received).toEqual(expected);
     });
 
