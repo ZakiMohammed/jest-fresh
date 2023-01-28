@@ -7,11 +7,6 @@ JEST fresh project for learning JEST.
 git clone https://github.com/ZakiMohammed/jest-fresh
 
 npm i
-
-node calculate
-node cocktail
-node user
-node post-main
 ```
 
 # Initial Setup:
