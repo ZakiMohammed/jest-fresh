@@ -2,13 +2,35 @@
 
 JEST fresh project for learning JEST.
 
-Initial Setup:
+# Run Project
+```
+git clone https://github.com/ZakiMohammed/jest-fresh
+
+npm i
+
+node calculate
+node cocktail
+node user
+node post-main
+```
+
+# Initial Setup:
 ```
 npm i jest -D
 npm i @types/jest -D
 ```
 
-Test:
+# Test Commands:
+```
+"scripts": {
+    "test": "jest",
+    "test-watch": "jest --watchAll",
+    "test-verbose": "jest --verbose",
+    "test-coverage": "jest --coverage",
+    "test-fat": "jest --watchAll --coverage --verbose"
+},
+```
+# Test Command Run:
 ```
 npm test
 npm run test
@@ -17,7 +39,7 @@ npm run test-coverage
 npm run test-fat
 ```
 
-Example:
+# Basic Example:
 ```
 it('should add num 1 and num 2', () => {
     // arrange
